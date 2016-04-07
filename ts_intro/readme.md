@@ -560,4 +560,5 @@ TypeScript, начиная с версии 1.7 (вроде бы), поддерж
 
 Вместе с компилятором вы устанавливаете npm-пакет `typings` - это менеджер пакетов деклараций, который поможет найти нужные заголовки и установить их в специальную папку `typings` в корне вашего проекта.
 
-[Подробнее о typings](https://github.com/typings/typings).
+[Подробнее о typings](https://github.com/typings/typings) <br/>
+[Синтаксис файлов деклараций](http://www.typescriptlang.org/docs/handbook/writing-declaration-files.html)
