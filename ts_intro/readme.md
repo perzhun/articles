@@ -255,7 +255,7 @@ class AdminPage {
 Долго не задерживаясь, давайте посмотрим на имплементацию декоратора `guest`:
 
 ```typescript
-function guest(options?: {ifauth_redirect_to: string}){
+function guest(options: {ifauth_redirect_to: string | boolean} = {ifauth_redirect_to: false}){
   return function(
     target: any, 
     methodName: string, 
